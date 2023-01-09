@@ -4,7 +4,7 @@
 		{
 			"type": "cppbuild",
 			"label": "C/C++: gcc build active file",
-			"command": "/usr/bin/gcc",
+			"command": "D:/MinGW/bin/gcc.exe",
 			"args": [
 				"-g",
 				"*.c",
@@ -22,7 +22,7 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"detail": "compiler: /usr/bin/gcc"
+			"detail": "compiler: D:/MinGW/bin/gcc.exe"
 		}
 	]
 }

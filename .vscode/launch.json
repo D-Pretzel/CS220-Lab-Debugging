@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "gcc - Windows+WSL/Ubuntu",
             "type": "cppdbg",
@@ -23,10 +24,10 @@
                 }
             ],
             "preLaunchTask": "C/C++: gcc build active file",
-            "miDebuggerPath": "/usr/bin/gdb"
+            "miDebuggerPath": "D:/MinGW/bin/gcc.exe"
         },
         {
-            "type": "lldb",
+            "type": "cppdbg",
             "request": "launch",
             "name": "lldb - MacOS",
             "program": "${workspaceFolder}/${fileBasenameNoExtension}",
